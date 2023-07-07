@@ -1,0 +1,37 @@
+/* PRIMARY THEME */
+
+body {
+  background-color: var(--link-gray);
+}
+
+.bllc-primary {
+  background-color: var(--midnight);
+  border: 1px solid var(--midnight);
+  color: var(--cloud);
+  text-transform: capitalize;
+  font-size: var(--md);
+}
+
+.bllc-card {
+  box-shadow: 3px 3px 3px 3px #b1aeae4d;
+  background-color: var(--light);
+  border-radius: var(--sm);
+}
+
+.bllc-card-body {
+  background-color: var(--light);
+  padding: var(--lg);
+  margin: var(--lg);
+}
+
+ul.list-group {
+  list-style-type: none;
+  background-color: var(--light);
+}
+
+li.list-group-item {
+  text-decoration: none;
+  background-color: var(--light);
+  border-bottom: 1px solid var(--cloud);
+  padding: var(--md) var(--lg) var(--md) var(--lg);
+}

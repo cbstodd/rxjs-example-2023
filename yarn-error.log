@@ -1,0 +1,50 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/20.3.1_1/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js global dir --json
+
+PATH: 
+  /Users/cbstodd/.rbenv/shims:/Users/cbstodd/.local/share/fig/plugins/git-open:/Users/cbstodd/.bun/bin:/Users/cbstodd/.bun/bin:/Users/cbstodd/.nvm/versions/node/v16.15.1/bin:/opt/homebrew/opt/gnu-sed/libexec/gnubin:/opt/homebrew/bin:/Users/cbstodd/.rbenv/shims:/Users/cbstodd/.rbenv/bin:/Users/cbstodd/.rbenv/shims:/Users/cbstodd/.rbenv/shims:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Applications/kitty.app/Contents/MacOS:/Users/cbstodd/.fig/bin:/Users/cbstodd/Code/flutter/bin:/Users/cbstodd/.local/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.3.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Volumes/Macintosh SSD/Code/RxJS/rxjs-examples/package.json: Expected ',' or '}' after property value in JSON at position 145
+      at JSON.parse (<anonymous>)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:310:30)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "rxjs-examples",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "build": "nodemon index.js"
+      "test": "test"
+    },
+    "author": "Colin Stodd (https://colinstodd.com)",
+    "license": "MIT",
+    "devDependencies": {
+      "eslint": "^8.43.0",
+      "eslint-config-google": "^0.14.0",
+      "lite-server": "^2.6.1"
+    },
+    "dependencies": {
+      "rxjs": "^7.8.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

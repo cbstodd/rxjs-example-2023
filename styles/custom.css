@@ -1,0 +1,53 @@
+main.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+main.wrapper > section {
+  width: 30%;
+  flex-wrap: wrap;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--cond-font);
+}
+
+h4,
+h5,
+h6 {
+  font-family: var(--serif-font);
+}
+
+p,
+div,
+span,
+td,
+tr,
+li,
+ul,
+ol {
+  font-family: var(--sans-font);
+}
+
+.btn {
+  padding: var(--md) var(--lg);
+  margin: var(--md);
+  border-radius: var(--sm);
+  font-weight: 700;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-sm {
+  padding: var(--sm);
+  margin: var(--md);
+}
+
+.btn-lg {
+  padding: var(--lg);
+  margin: var(--xxl);
+}

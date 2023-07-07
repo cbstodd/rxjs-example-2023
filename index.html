@@ -3,15 +3,54 @@
 
     <head>
         <meta charset="UTF-8">
+        <link rel="shortcut icon" href="#">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>RxJS Examples</title>
-        <script src="./index.js" type="async" defer></script>
+        <link rel="stylesheet" href="https://use.typekit.net/gja5qcu.css">
+        <script type="module" src="node_modules/rxjs/dist/bundles/rxjs.umd.min.js"></script>
+        <script src="./src/dom.js" type="module" defer></script>
         <link rel="stylesheet" href="./styles/main.css">
-
     </head>
 
     <body>
-        <div id="app"></div>
+        <main class="wrapper">
+            <section class="app-section">
+                <h2>App info Displayed below</h2>
+                <!-- App Renders Here -->
+                <div id="app" class="app"></div>
+                <!-- /END App Renders Here -->
+            </section>
+            <section class="button-section">
+                <button type="button" id="clickMeBtn" class="btn bllc-primary">
+                    Click Me
+                </button>
+            </section>
+            <section class="list-section">
+                <div class="bllc-card">
+                    <div class="bllc-card-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">Item One</li>
+                            <li class="list-group-item">Item Two</li>
+                            <li class="list-group-item">Item Three</li>
+                            <li class="list-group-item">Item Four</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
     </body>
 
 </html>
